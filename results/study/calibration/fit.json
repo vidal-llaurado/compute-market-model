@@ -1,0 +1,184 @@
+{
+  "model": {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7930148036544755,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.2497194564238259,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03264978423231088,
+      -0.01
+    ],
+    "jump_intensity_q": 0.2737525278464852,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  "report": {
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "objective": 9.83267943311704,
+    "data_objective": 9.832679433117042,
+    "free_parameters": [
+      {
+        "name": "level mean reversion",
+        "path": [
+          "kappa",
+          0
+        ],
+        "lower": 0.1,
+        "upper": 2.0,
+        "scale": 0.8,
+        "prior_mean": null,
+        "prior_standard_error": null
+      },
+      {
+        "name": "level diffusion",
+        "path": [
+          "diffusion",
+          0,
+          0
+        ],
+        "lower": 0.05,
+        "upper": 0.6,
+        "scale": 0.25,
+        "prior_mean": null,
+        "prior_standard_error": null
+      },
+      {
+        "name": "physical level drift",
+        "path": [
+          "physical_drift",
+          0
+        ],
+        "lower": -0.2,
+        "upper": 0.2,
+        "scale": 0.1,
+        "prior_mean": null,
+        "prior_standard_error": null
+      },
+      {
+        "name": "pricing jump intensity",
+        "path": [
+          "jump_intensity_q"
+        ],
+        "lower": 0.05,
+        "upper": 1.0,
+        "scale": 0.3,
+        "prior_mean": null,
+        "prior_standard_error": null
+      }
+    ],
+    "estimates": [
+      0.7930148036544755,
+      0.2497194564238259,
+      0.03264978423231088,
+      0.2737525278464852
+    ],
+    "anchors": [
+      "Initial curve fixed by a separate clean-price observation block.",
+      "Factor signs/scales fixed by compute loading (1, 0.5).",
+      "Slope decay/diffusion, jump means/covariances and all other coordinates fixed.",
+      "Synthetic transition factors are observed for this recovery experiment."
+    ],
+    "data_rank": 4,
+    "parameter_count": 4,
+    "locally_identified": true,
+    "scaled_data_singular_values": [
+      355.90677869387116,
+      69.22078209413705,
+      48.1614248988701,
+      8.411332754068304
+    ],
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "evaluations": 6,
+    "data_sha256": "6edee5479fcfc756e03dfd78b4d185902f3bf17c4abb7eef383605f6e5c950d8",
+    "initial_model_sha256": "c702d39ade2bafe5c39b414599e704fc6f3c0734435fb903c238b0c266fde473",
+    "fitted_model_sha256": "28b3ad8faf7f960586eb272c013ee218f81d5cad84a7a689a8a27cba3c6e8876",
+    "method": "weighted market repricing and conditional empirical-characteristic-function moments",
+    "uncertainty": "resample complete independent paths; priors do not add data identification"
+  }
+}

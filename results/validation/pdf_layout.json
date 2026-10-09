@@ -1,0 +1,208 @@
+{
+  "MODEL": {
+    "pages": 15,
+    "page_checks": [
+      {
+        "page": 1,
+        "characters": 1525,
+        "replacement_characters": 0
+      },
+      {
+        "page": 2,
+        "characters": 3132,
+        "replacement_characters": 0
+      },
+      {
+        "page": 3,
+        "characters": 2108,
+        "replacement_characters": 0
+      },
+      {
+        "page": 4,
+        "characters": 2021,
+        "replacement_characters": 0
+      },
+      {
+        "page": 5,
+        "characters": 1585,
+        "replacement_characters": 0
+      },
+      {
+        "page": 6,
+        "characters": 2274,
+        "replacement_characters": 0
+      },
+      {
+        "page": 7,
+        "characters": 2589,
+        "replacement_characters": 0
+      },
+      {
+        "page": 8,
+        "characters": 2382,
+        "replacement_characters": 0
+      },
+      {
+        "page": 9,
+        "characters": 2456,
+        "replacement_characters": 0
+      },
+      {
+        "page": 10,
+        "characters": 2427,
+        "replacement_characters": 0
+      },
+      {
+        "page": 11,
+        "characters": 2184,
+        "replacement_characters": 0
+      },
+      {
+        "page": 12,
+        "characters": 2412,
+        "replacement_characters": 0
+      },
+      {
+        "page": 13,
+        "characters": 3097,
+        "replacement_characters": 0
+      },
+      {
+        "page": 14,
+        "characters": 3299,
+        "replacement_characters": 0
+      },
+      {
+        "page": 15,
+        "characters": 3268,
+        "replacement_characters": 0
+      }
+    ],
+    "sha256": "8c378b18d9afecd9c2ff86a0a10540c60c42443b32f8305c368c28c78ec6b915",
+    "visual_review": "All pages reviewed; equations, tables and figures fit the page."
+  },
+  "MODEL_CHOICES": {
+    "pages": 12,
+    "page_checks": [
+      {
+        "page": 1,
+        "characters": 1531,
+        "replacement_characters": 0
+      },
+      {
+        "page": 2,
+        "characters": 2942,
+        "replacement_characters": 0
+      },
+      {
+        "page": 3,
+        "characters": 2893,
+        "replacement_characters": 0
+      },
+      {
+        "page": 4,
+        "characters": 2844,
+        "replacement_characters": 0
+      },
+      {
+        "page": 5,
+        "characters": 2903,
+        "replacement_characters": 0
+      },
+      {
+        "page": 6,
+        "characters": 3420,
+        "replacement_characters": 0
+      },
+      {
+        "page": 7,
+        "characters": 1152,
+        "replacement_characters": 0
+      },
+      {
+        "page": 8,
+        "characters": 1550,
+        "replacement_characters": 0
+      },
+      {
+        "page": 9,
+        "characters": 2063,
+        "replacement_characters": 0
+      },
+      {
+        "page": 10,
+        "characters": 1977,
+        "replacement_characters": 0
+      },
+      {
+        "page": 11,
+        "characters": 2323,
+        "replacement_characters": 0
+      },
+      {
+        "page": 12,
+        "characters": 757,
+        "replacement_characters": 0
+      }
+    ],
+    "sha256": "4bc715026ffdf3dce853bd3735221316fd76192ea011ba035c77f578c271b089",
+    "visual_review": "All pages reviewed; equations, tables and figures fit the page."
+  },
+  "RESEARCH_REPORT": {
+    "pages": 10,
+    "page_checks": [
+      {
+        "page": 1,
+        "characters": 1335,
+        "replacement_characters": 0
+      },
+      {
+        "page": 2,
+        "characters": 2461,
+        "replacement_characters": 0
+      },
+      {
+        "page": 3,
+        "characters": 1368,
+        "replacement_characters": 0
+      },
+      {
+        "page": 4,
+        "characters": 936,
+        "replacement_characters": 0
+      },
+      {
+        "page": 5,
+        "characters": 1246,
+        "replacement_characters": 0
+      },
+      {
+        "page": 6,
+        "characters": 1890,
+        "replacement_characters": 0
+      },
+      {
+        "page": 7,
+        "characters": 1387,
+        "replacement_characters": 0
+      },
+      {
+        "page": 8,
+        "characters": 1160,
+        "replacement_characters": 0
+      },
+      {
+        "page": 9,
+        "characters": 970,
+        "replacement_characters": 0
+      },
+      {
+        "page": 10,
+        "characters": 1047,
+        "replacement_characters": 0
+      }
+    ],
+    "sha256": "7f0ff6a9f674fe810273e724fe1eb514511c8a70377c36941cbcf832bdeba928",
+    "visual_review": "All pages reviewed; equations, tables and figures fit the page."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "all_match": true,
+  "paths": 8192,
+  "fields": {
+    "cashflows": true,
+    "upper": true,
+    "actions": true
+  }
+}

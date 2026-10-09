@@ -1,0 +1,693 @@
+{
+  "passed": true,
+  "policies": {
+    "nominal/unhedged": {
+      "paths": 1024,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 2.3283064365386963e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "nominal/static": {
+      "paths": 1024,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "nominal/adaptive": {
+      "paths": 1024,
+      "failures": 0,
+      "maximum_ledger_error": 2.7939677238464355e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "level_collapse/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.3969838619232178e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 2.3283064365386963e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "level_collapse/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 9.313225746154785e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "level_collapse/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 2.3283064365386963e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "long_end_repricing/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.3969838619232178e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "long_end_repricing/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "long_end_repricing/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 2.7939677238464355e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "generation_transition/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "generation_transition/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 1.3969838619232178e-09,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "generation_transition/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 9.313225746154785e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "regional_scarcity/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 2.3283064365386963e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "regional_scarcity/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 9.313225746154785e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "regional_scarcity/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "power_and_rates/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "power_and_rates/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "power_and_rates/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "basis_break/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "basis_break/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "basis_break/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 9.313225746154785e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "benchmark_dislocation/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "benchmark_dislocation/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.3969838619232178e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 2.3283064365386963e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "benchmark_dislocation/adaptive": {
+      "paths": 512,
+      "failures": 1,
+      "maximum_ledger_error": 2.0954757928848267e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 2.3283064365386963e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "margin_call/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "margin_call/static": {
+      "paths": 512,
+      "failures": 1,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 9.313225746154785e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "margin_call/adaptive": {
+      "paths": 512,
+      "failures": 9,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "execution_freeze/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "execution_freeze/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 2.3283064365386963e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 1.3969838619232178e-09,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "execution_freeze/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 2.3283064365386963e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 9.313225746154785e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "lender_haircut/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "lender_haircut/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 2.3283064365386963e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "lender_haircut/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 2.7939677238464355e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "outage/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "outage/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "outage/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "liquidity_spiral/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.3969838619232178e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 1.1641532182693481e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "liquidity_spiral/static": {
+      "paths": 512,
+      "failures": 1,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 0.0,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "liquidity_spiral/adaptive": {
+      "paths": 512,
+      "failures": 19,
+      "maximum_ledger_error": 2.3283064365386963e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "counterparty_default/unhedged": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 1.862645149230957e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "counterparty_default/static": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 2.3283064365386963e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 1.3969838619232178e-09,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "counterparty_default/adaptive": {
+      "paths": 512,
+      "failures": 0,
+      "maximum_ledger_error": 2.3283064365386963e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    },
+    "nominal/futures_only": {
+      "paths": 1024,
+      "failures": 0,
+      "maximum_ledger_error": 2.3283064365386963e-09,
+      "summary_differences": {
+        "mean_wealth": 0.0,
+        "loss_es": 4.656612873077393e-10,
+        "wealth_variance": 0.0,
+        "failure_fraction": 0.0,
+        "mean_delivery_shortfall_gpu_hours": 0.0,
+        "mean_delivery_shortfall_fraction": 0.0,
+        "margin_p95": 0.0,
+        "mean_margin_cash_years": 0.0,
+        "mean_interest_cost": 0.0
+      }
+    }
+  }
+}

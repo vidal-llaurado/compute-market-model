@@ -1,0 +1,262 @@
+[
+  {
+    "id": "R01",
+    "authors": "Rockafellar, R. T.; Uryasev, S.",
+    "year": "2000",
+    "title": "Optimization of conditional value-at-risk",
+    "publication": "Journal of Risk, 2(3), 21–41",
+    "url": "https://www.risk.net/journal-risk/2161159/optimization-conditional-value-risk",
+    "grounding": "Expected-shortfall epigraph and scenario optimization.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R02",
+    "authors": "Ruszczyński, A.",
+    "year": "2010",
+    "title": "Risk-averse dynamic programming for Markov decision processes",
+    "publication": "Mathematical Programming, 125, 235–261",
+    "url": "https://doi.org/10.1007/s10107-010-0393-3",
+    "grounding": "Nested conditional risk and dynamic programming, with the correction in R03.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R03",
+    "authors": "Ruszczyński, A.",
+    "year": "2014",
+    "title": "Erratum to: Risk-averse dynamic programming for Markov decision processes",
+    "publication": "Mathematical Programming, 145, 601–604",
+    "url": "https://doi.org/10.1007/s10107-014-0783-z",
+    "grounding": "Correction to the original general-state result; finite trees avoid measurable-selection issues.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R04",
+    "authors": "Iyengar, G. N.",
+    "year": "2005",
+    "title": "Robust Dynamic Programming",
+    "publication": "Mathematics of Operations Research, 30(2), 257–280",
+    "url": "https://doi.org/10.1287/moor.1040.0129",
+    "grounding": "Rectangular transition ambiguity and robust recursion.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R05",
+    "authors": "Gallego, G.; van Ryzin, G.",
+    "year": "1994",
+    "title": "Optimal Dynamic Pricing of Inventories with Stochastic Demand over Finite Horizons",
+    "publication": "Management Science, 40(8), 999–1020",
+    "url": "https://doi.org/10.1287/mnsc.40.8.999",
+    "grounding": "Price-dependent arrivals and the opportunity cost of perishable inventory.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R06",
+    "authors": "Carmona, R.; Coulon, M.; Schwarz, D.",
+    "year": "2013",
+    "title": "Electricity price modeling and asset valuation: a multi-fuel structural approach",
+    "publication": "Mathematics and Financial Economics, 7(2), 167–202",
+    "url": "https://doi.org/10.1007/s11579-012-0091-4",
+    "grounding": "Structural interaction among output prices, demand and input costs. [Author manuscript](https://arxiv.org/abs/1205.2299).",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R07",
+    "authors": "Callegaro, G.; Campi, L.; Giusto, V.; Vargiolu, T.",
+    "year": "2016",
+    "title": "Utility indifference pricing and hedging for structured contracts in energy markets",
+    "publication": "Author manuscript, arXiv:1407.7725, revised 20 February 2016",
+    "url": "https://arxiv.org/abs/1407.7725",
+    "grounding": "Portfolio-dependent prices and exercise/hedge interactions in incomplete energy markets. Its exponential utility differs from this project’s mean/ES preference.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R08",
+    "authors": "Brigo, D.; Francischello, M.; Pallavicini, A.",
+    "year": "2015",
+    "title": "Invariance, existence and uniqueness of solutions of nonlinear valuation PDEs and FBSDEs inclusive of credit risk, collateral and funding costs",
+    "publication": "Author manuscript, arXiv:1506.00686, revised 27 November 2015",
+    "url": "https://arxiv.org/abs/1506.00686",
+    "grounding": "Cash-flow-based treatment of collateral, credit, treasury funding and overlapping valuation adjustments.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R09",
+    "authors": "Brunnermeier, M. K.; Pedersen, L. H.",
+    "year": "2009",
+    "title": "Market Liquidity and Funding Liquidity",
+    "publication": "Review of Financial Studies, 22(6), 2201–2238",
+    "url": "https://doi.org/10.1093/rfs/hhn098",
+    "grounding": "Interaction between funding constraints, margin and market liquidity.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R10",
+    "authors": "Kleywegt, A. J.; Shapiro, A.; Homem-de-Mello, T.",
+    "year": "2002",
+    "title": "The Sample Average Approximation Method for Stochastic Discrete Optimization",
+    "publication": "SIAM Journal on Optimization, 12(2), 479–502",
+    "url": "https://doi.org/10.1137/S1052623499363220",
+    "grounding": "Repeated sampling and optimization-error assessment. [Institutional record](https://pure.uai.cl/en/publications/the-sample-average-approximation-method-for-stochastic-discrete-o/).",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R11",
+    "authors": "Rawlings, J. B.; Mayne, D. Q.; Diehl, M. M.",
+    "year": "2026",
+    "title": "Model Predictive Control: Theory, Computation, and Design",
+    "publication": "Second edition, sixth printing; Nob Hill Publishing, author resource page",
+    "url": "https://sites.engineering.ucsb.edu/~jbraw/mpc/",
+    "grounding": "Receding-horizon control and the distinction between a local controller and a full value function.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R12",
+    "authors": "MLCommons",
+    "year": "2026",
+    "title": "MLPerf Inference: Datacenter",
+    "publication": "Benchmark specification and results portal; accessed 18 September 2026",
+    "url": "https://mlcommons.org/benchmarks/inference-datacenter/",
+    "grounding": "Workload-specific quality, latency and throughput conventions for useful-work normalization.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R13",
+    "authors": "SciPy contributors",
+    "year": "2026",
+    "title": "scipy.optimize.milp",
+    "publication": "SciPy 1.17.0 reference manual; accessed 18 September 2026",
+    "url": "https://docs.scipy.org/doc/scipy-1.17.0/reference/generated/scipy.optimize.milp.html",
+    "grounding": "MILP status, dual bound, node count and relative-gap fields reported by SciPy.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R14",
+    "authors": "SciPy contributors",
+    "year": "2026",
+    "title": "scipy.optimize.linprog, method highs",
+    "publication": "SciPy 1.17.0 reference manual; accessed 18 September 2026",
+    "url": "https://docs.scipy.org/doc/scipy-1.17.0/reference/optimize.linprog-highs.html",
+    "grounding": "LP tolerances, residuals and marginals used for numerical certificates.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R15",
+    "authors": "Heath, D.; Jarrow, R.; Morton, A.",
+    "year": "1992",
+    "title": "Bond Pricing and the Term Structure of Interest Rates: A New Methodology for Contingent Claims Valuation",
+    "publication": "Econometrica, 60(1), 77–105",
+    "url": "https://www.jstor.org/stable/2951677",
+    "grounding": "The forward curve as the primary stochastic object and drift consistency. Commodity futures martingale restrictions determine the drift in this model.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R16",
+    "authors": "Benth, F. E.; Krühner, P.",
+    "year": "2014",
+    "title": "Representation of Infinite-Dimensional Forward Price Models in Commodity Markets",
+    "publication": "Communications in Mathematics and Statistics, 2, 47–106; doi:10.1007/s40304-014-0030-1",
+    "url": "https://arxiv.org/abs/1403.4111",
+    "grounding": "Function-valued commodity curves, Lévy drivers, OU realizations and delivery-period operators.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R17",
+    "authors": "Benth, F. E.; Piccirilli, M.; Vargiolu, T.",
+    "year": "2019",
+    "title": "Mean-reverting additive energy forward curves in a Heath–Jarrow–Morton framework",
+    "publication": "Mathematics and Financial Economics, 13, 543–577; doi:10.1007/s11579-019-00237-x",
+    "url": "https://arxiv.org/abs/1709.03310",
+    "grounding": "Shared additive multicommodity factors and the distinction between real-world dynamics and martingale pricing dynamics. The linked manuscript has the shorter title Additive energy forward curves in a Heath–Jarrow–Morton framework.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R18",
+    "authors": "Benth, F. E.; Koekebakker, S.",
+    "year": "2008",
+    "title": "Stochastic modeling of financial electricity contracts",
+    "publication": "Energy Economics, 30(3), 1116–1157; doi:10.1016/j.eneco.2007.06.005",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0140988307000783",
+    "grounding": "Actual delivery periods and consistent aggregation of financial electricity contracts; transferred here to compute service strips.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R19",
+    "authors": "Duffie, D.; Pan, J.; Singleton, K.",
+    "year": "2000",
+    "title": "Transform Analysis and Asset Pricing for Affine Jump-Diffusions",
+    "publication": "Econometrica, 68(6), 1343–1376; doi:10.1111/1468-0262.00164",
+    "url": "https://www.nber.org/papers/w7105",
+    "grounding": "Affine transform methods. The project specializes to constant-coefficient OU factors with compound-Poisson Gaussian marks and implements its transforms directly.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R20",
+    "authors": "Föllmer, H.; Schweizer, M.",
+    "year": "1991",
+    "title": "Hedging of Contingent Claims under Incomplete Information",
+    "publication": "In Davis and Elliott (eds.), Applied Stochastic Analysis, Stochastics Monographs 5, 389–414",
+    "url": "https://people.math.ethz.ch/~mschweiz/ms_publ_eng.html",
+    "grounding": "Orthogonal residual risk and incomplete-market hedging. The project’s covariance-weighted factor projection is a local diagnostic, distinct from a full dynamic martingale decomposition.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R21",
+    "authors": "Kalman, R. E.",
+    "year": "1960",
+    "title": "A New Approach to Linear Filtering and Prediction Problems",
+    "publication": "Journal of Basic Engineering, 82(1), 35–45; doi:10.1115/1.3662552",
+    "url": "https://asmedigitalcollection.asme.org/fluidsengineering/article/82/1/35/397706/A-New-Approach-to-Linear-Filtering-and-Prediction",
+    "grounding": "State-space filtering and covariance recursion. Nonlinear observation linearization and jump moment matching are explicit implementation choices.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R22",
+    "authors": "Longstaff, F. A.; Schwartz, E. S.",
+    "year": "2001",
+    "title": "Valuing American Options by Simulation: A Simple Least-Squares Approach",
+    "publication": "Review of Financial Studies, 14(1), 113–147; doi:10.1093/rfs/14.1.113",
+    "url": "https://escholarship.org/uc/item/43n1k4jb",
+    "grounding": "Regression-based continuation for exercise decisions. The project adds a finite remaining-rights state and evaluates the frozen exercise rule on independent paths.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R23",
+    "authors": "Benth, F. E.; Krühner, P.",
+    "year": "2015",
+    "title": "Derivatives pricing in energy markets: an infinite-dimensional approach",
+    "publication": "SIAM Journal on Financial Mathematics, 6(1), 825–869; doi:10.1137/15100268X",
+    "url": "https://arxiv.org/abs/1412.7943",
+    "grounding": "Options and Greeks as functionals of an entire forward curve, and cross-commodity covariance.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R24",
+    "authors": "Aïd, R.; Campi, L.; Langrené, N.; Pham, H.",
+    "year": "2014",
+    "title": "A Probabilistic Numerical Method for Optimal Multiple Switching Problems in High Dimension",
+    "publication": "SIAM Journal on Financial Mathematics, 5(1), 191–231; doi:10.1137/120897298",
+    "url": "https://arxiv.org/abs/1210.8175",
+    "grounding": "Regression-based switching control. The linked author manuscript is titled A probabilistic numerical method for optimal multiple switching problem and application to investments in electricity generation. The project uses a finite operating grid, independent policy evaluation and a perfect-information comparison.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R25",
+    "authors": "Benth, F. E.; Krühner, P.",
+    "year": "2015",
+    "title": "Approximation of forward curve models in commodity markets with arbitrage-free finite dimensional models",
+    "publication": "Author manuscript, arXiv:1512.05983",
+    "url": "https://arxiv.org/abs/1512.05983",
+    "grounding": "Separates a curve-valued architecture from its finite-dimensional realization. The project uses an exponential loading family exactly closed under delivery-date transport.",
+    "checked": "2026-09-18"
+  },
+  {
+    "id": "R26",
+    "authors": "Feuerverger, A.; Mureika, R. A.",
+    "year": "1977",
+    "title": "The Empirical Characteristic Function and Its Applications",
+    "publication": "Annals of Statistics, 5(1), 88–97; doi:10.1214/aos/1176343742",
+    "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-5/issue-1/The-Empirical-Characteristic-Function-and-Its-Applications/10.1214/aos/1176343742.full",
+    "grounding": "Empirical characteristic-function estimation. The conditional OU–Lévy moment weights, identification diagnostics and path-cluster bootstrap are specified explicitly in the project.",
+    "checked": "2026-09-18"
+  }
+]

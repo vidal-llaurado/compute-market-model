@@ -1,0 +1,541 @@
+{
+  "risk": {
+    "bucket_count": 21,
+    "factor_span_rank": 8,
+    "factor_bridge_max_error": 0.004156116396188736,
+    "bucket_half_step_max_change": 0.0006216578185558319,
+    "out_of_span": {
+      "bucket_shock": [
+        -0.002688344811350982,
+        0.004321701556670152,
+        0.0013780075902405074,
+        -0.001065426190659075,
+        -0.002039564439896624,
+        -0.002354936198250005,
+        -0.0009229587137506256,
+        -0.00038597282611717683,
+        -0.0033101142727812124,
+        0.005685589182740039,
+        0.0012545484346400753,
+        -0.0015148316423923395,
+        -0.0033468373182844874,
+        -0.0008738048210842637,
+        0.0005785853437870181,
+        -0.0005620989130047876,
+        -0.00042938227584628946,
+        0.0001386283274800619,
+        0.0002833547106997216,
+        0.00021608286263315806,
+        0.0005076980030356189
+      ],
+      "factor_projection_norm": 2.230671492192551e-16,
+      "linear_pnl": 4634.731362541283,
+      "full_revaluation_pnl": 4648.822295619175
+    },
+    "private_value": 2985819.7200563336,
+    "private_bucket_unit_pnl": [
+      34.07839384046383,
+      41.62356813927181,
+      10.919727202504873
+    ],
+    "option_quadrature": [
+      {
+        "expiry": 0.125,
+        "price": 0.06950257587688125,
+        "coarse_price": 0.06950257587688391,
+        "quadrature_change": -2.6645352591003757e-15,
+        "method": "affine discounted characteristic transform",
+        "frequency_nodes": [
+          128,
+          256
+        ]
+      },
+      {
+        "expiry": 0.5,
+        "price": 0.14267944363859275,
+        "coarse_price": 0.14267944363859852,
+        "quadrature_change": -5.773159728050814e-15,
+        "method": "affine discounted characteristic transform",
+        "frequency_nodes": [
+          128,
+          256
+        ]
+      },
+      {
+        "expiry": 1.0,
+        "price": 0.23247892161161943,
+        "coarse_price": 0.23247892161163164,
+        "quadrature_change": -1.2212453270876722e-14,
+        "method": "affine discounted characteristic transform",
+        "frequency_nodes": [
+          128,
+          256
+        ]
+      }
+    ]
+  },
+  "assets": {
+    "value": 817178.2560118875,
+    "standard_error": 5201.092912029192,
+    "perfect_information_upper_mean": 863863.8136043891,
+    "upper_standard_error": 4871.085235154401,
+    "information_gap": 46685.5575925016,
+    "paired_gap_standard_error": 923.5669895293704,
+    "maximum_bound_violation": 1.6298145055770874e-09,
+    "paths": 8192,
+    "measure": "Q",
+    "training_paths": 8192,
+    "training_seed": 15201,
+    "evaluation_seed": 15202,
+    "mean_run_intervals": 16.2552490234375,
+    "retirement_fraction": 0.554931640625,
+    "always_run_value": 706838.2718190853,
+    "always_run_standard_error": 6477.449825770646,
+    "immediate_sale_value": 500000.0,
+    "asset": {
+      "compute_market": "G1_US",
+      "power_market": "power_US",
+      "gpus": 64,
+      "energy_mwh_per_gpu_hour": 0.00065,
+      "nonpower_per_gpu_hour": 1.65,
+      "standby_annual_cost": 12000,
+      "startup_cost": 18000,
+      "shutdown_cost": 3500,
+      "terminal_residual": 90000,
+      "resale_initial": 500000,
+      "resale_decay": 0.65,
+      "resale_loading": [
+        0.25,
+        0.0,
+        0.18,
+        0,
+        0,
+        -0.01,
+        -0.1,
+        -0.35,
+        0
+      ],
+      "min_run_steps": 2,
+      "utilisation": 0.8
+    },
+    "decision_dates": [
+      0.0,
+      0.125,
+      0.25,
+      0.375,
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0,
+      1.125,
+      1.25,
+      1.375,
+      1.5,
+      1.625,
+      1.75,
+      1.875,
+      2.0,
+      2.125,
+      2.25,
+      2.375,
+      2.5,
+      2.625,
+      2.75,
+      2.875,
+      3.0
+    ],
+    "hardware_values": {
+      "economic_policy_value_per_asset": 817178.2560118875,
+      "economic_standard_error": 5201.092912029192,
+      "lender_marks_per_block": [
+        160000.0,
+        160000.00000000003,
+        240000.0,
+        240000.0
+      ],
+      "lender_collateral_total": 4400000.0,
+      "executable_liquidation_per_pool": [
+        998400.0,
+        748800.0000000002,
+        936000.0,
+        748800.0
+      ],
+      "liquidation_total": 3432000.0,
+      "economic_scope": "single unencumbered asset and selected pricing law; no debt or firm customer commitments",
+      "financed_book_value": "separate controlled value; lender appraisal is not replaced by operating-option value"
+    }
+  },
+  "calibration": {
+    "names": [
+      "level mean reversion",
+      "level diffusion",
+      "physical level drift",
+      "pricing jump intensity"
+    ],
+    "truth": [
+      0.8,
+      0.25,
+      0.03,
+      0.3
+    ],
+    "estimates": [
+      0.7930148036544755,
+      0.2497194564238259,
+      0.03264978423231088,
+      0.2737525278464852
+    ],
+    "report": {
+      "success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "objective": 9.83267943311704,
+      "data_objective": 9.832679433117042,
+      "free_parameters": [
+        {
+          "name": "level mean reversion",
+          "path": [
+            "kappa",
+            0
+          ],
+          "lower": 0.1,
+          "upper": 2.0,
+          "scale": 0.8,
+          "prior_mean": null,
+          "prior_standard_error": null
+        },
+        {
+          "name": "level diffusion",
+          "path": [
+            "diffusion",
+            0,
+            0
+          ],
+          "lower": 0.05,
+          "upper": 0.6,
+          "scale": 0.25,
+          "prior_mean": null,
+          "prior_standard_error": null
+        },
+        {
+          "name": "physical level drift",
+          "path": [
+            "physical_drift",
+            0
+          ],
+          "lower": -0.2,
+          "upper": 0.2,
+          "scale": 0.1,
+          "prior_mean": null,
+          "prior_standard_error": null
+        },
+        {
+          "name": "pricing jump intensity",
+          "path": [
+            "jump_intensity_q"
+          ],
+          "lower": 0.05,
+          "upper": 1.0,
+          "scale": 0.3,
+          "prior_mean": null,
+          "prior_standard_error": null
+        }
+      ],
+      "estimates": [
+        0.7930148036544755,
+        0.2497194564238259,
+        0.03264978423231088,
+        0.2737525278464852
+      ],
+      "anchors": [
+        "Initial curve fixed by a separate clean-price observation block.",
+        "Factor signs/scales fixed by compute loading (1, 0.5).",
+        "Slope decay/diffusion, jump means/covariances and all other coordinates fixed.",
+        "Synthetic transition factors are observed for this recovery experiment."
+      ],
+      "data_rank": 4,
+      "parameter_count": 4,
+      "locally_identified": true,
+      "scaled_data_singular_values": [
+        355.90677869387116,
+        69.22078209413705,
+        48.1614248988701,
+        8.411332754068304
+      ],
+      "active_bounds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evaluations": 6,
+      "data_sha256": "6edee5479fcfc756e03dfd78b4d185902f3bf17c4abb7eef383605f6e5c950d8",
+      "initial_model_sha256": "c702d39ade2bafe5c39b414599e704fc6f3c0734435fb903c238b0c266fde473",
+      "fitted_model_sha256": "28b3ad8faf7f960586eb272c013ee218f81d5cad84a7a689a8a27cba3c6e8876",
+      "method": "weighted market repricing and conditional empirical-characteristic-function moments",
+      "uncertainty": "resample complete independent paths; priors do not add data identification"
+    },
+    "bootstrap": {
+      "replicates": 24,
+      "converged": 24,
+      "seed": 15103,
+      "quantiles_025_50_975": [
+        [
+          0.7715618371056516,
+          0.2472214758009535,
+          0.02784372047307559,
+          0.2289613338225766
+        ],
+        [
+          0.7899409777561639,
+          0.2499586159584431,
+          0.03192766483430487,
+          0.26524675339473025
+        ],
+        [
+          0.8061617205104196,
+          0.2514055709286616,
+          0.03613445390546099,
+          0.31821592128455745
+        ]
+      ],
+      "method": "whole-path cluster resampling; independent quote noise at stated standard errors"
+    },
+    "predictive_uncertainty": {
+      "mean": 2.370554390201579,
+      "process_variance": 0.27834029883933886,
+      "parameter_variance": 4.7822301494172344e-05,
+      "total_variance": 0.27838812114083306,
+      "draws": 24,
+      "paths_per_draw": 4096,
+      "seed": 15104
+    },
+    "heldout_options": [
+      {
+        "expiry": 0.25,
+        "strike": 2.0,
+        "truth": 0.009862519503548661,
+        "fit": 0.009505987625983758,
+        "error": -0.0003565318775649029
+      },
+      {
+        "expiry": 0.25,
+        "strike": 2.5,
+        "truth": 0.14522031617330367,
+        "fit": 0.1446592595465641,
+        "error": -0.0005610566267395534
+      },
+      {
+        "expiry": 0.75,
+        "strike": 2.0,
+        "truth": 0.03737567089644722,
+        "fit": 0.036776046439215504,
+        "error": -0.0005996244572317178
+      },
+      {
+        "expiry": 0.75,
+        "strike": 2.5,
+        "truth": 0.22279438362467552,
+        "fit": 0.22209199808615399,
+        "error": -0.0007023855385215327
+      },
+      {
+        "expiry": 1.5,
+        "strike": 2.0,
+        "truth": 0.07205391601738831,
+        "fit": 0.07144767576834754,
+        "error": -0.0006062402490407681
+      },
+      {
+        "expiry": 1.5,
+        "strike": 2.5,
+        "truth": 0.30546682744863496,
+        "fit": 0.3049403024881707,
+        "error": -0.0005265249604642364
+      }
+    ],
+    "heldout_price_rmse": 0.0005685581509561145,
+    "latent_report": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "method": "EKF Gaussian quasi-likelihood",
+      "negative_loglikelihood": -1041.288340789585,
+      "estimates": [
+        -0.12026266338451506
+      ],
+      "free_parameters": [
+        {
+          "name": "physical level drift",
+          "path": [
+            "physical_drift",
+            0
+          ],
+          "lower": -0.2,
+          "upper": 0.2,
+          "scale": 0.1,
+          "prior_mean": null,
+          "prior_standard_error": null
+        }
+      ],
+      "anchors": [
+        "Observation loading/gauge, jump law and remaining parameters fixed."
+      ],
+      "iterations": 4,
+      "normalized_innovation_squared": [
+        2.2501474383328555,
+        2.4749302997005094,
+        0.14055035163529495,
+        1.1680129398738581,
+        2.8596988714924616,
+        2.6717954187190847,
+        5.647729404626746,
+        0.6357719469576741,
+        1.6815886062549381,
+        0.8333164046014591,
+        5.1568307404377265,
+        1.3584912843466166,
+        2.6565413653235135,
+        3.008457516493219,
+        5.441867289577594,
+        0.4435752419360955,
+        6.6554516677333755,
+        2.1398511148354293,
+        0.27950382793731765,
+        2.6377973436299387,
+        4.5244302164820045,
+        2.6148287303049087,
+        3.879860511349136,
+        0.8467135971201277,
+        7.8765304449535805,
+        0.10444162973781436,
+        3.225618730245033,
+        0.22377071200456253,
+        1.1151281932201478,
+        1.9123565535243974,
+        1.3203907935154187,
+        1.6470076623615348,
+        2.7311380161957572,
+        1.2025878942376584,
+        0.9317657382925534,
+        2.270770020579373,
+        1.8554684672453619,
+        4.097088858657278,
+        1.2160779541517845,
+        0.7368948718373652,
+        2.707549744549077,
+        4.968892747842449,
+        7.134122540942652,
+        3.3261255151630005,
+        6.14266988501314,
+        1.7219715049241542,
+        3.2367227042327857,
+        2.602809187179206,
+        2.6523869879602326,
+        0.45762753901845266,
+        2.878896632568479,
+        2.3832638739171568,
+        3.78370089127769,
+        2.2673690572396463,
+        3.240458882861368,
+        1.0608508381342472,
+        3.4343373044465477,
+        1.3340924704020032,
+        2.6656209307076386,
+        0.18334045945729638,
+        12.482617184815075,
+        2.460779560194152,
+        0.7245379982745702,
+        1.4835493916226348,
+        2.0436382466369354,
+        3.277999189491714,
+        1.6770045401568234,
+        4.088047289041246,
+        2.5218868624335453,
+        1.8256325171251953,
+        1.1192941297624541,
+        1.9079485751861747,
+        5.7331161290773265,
+        0.2157740239957952,
+        8.425328853259492,
+        1.1641860203240804,
+        0.4901762111026184,
+        4.704227630237343,
+        4.513727365881406,
+        3.9050102632135917,
+        4.734712624152522,
+        1.576410836307113,
+        2.1881717290209624,
+        2.402300404983632,
+        1.2913303223719639,
+        2.307290253636559,
+        3.98277312194344,
+        1.8615033392450442,
+        2.2792459378880885,
+        2.431617189735328,
+        5.278570333472259,
+        33.67693078857841,
+        1.1546775287756068,
+        2.7611901426142893,
+        5.976408092739769,
+        3.5288686618230014,
+        2.5340762364435165,
+        2.739760990810378,
+        0.7005094230083532,
+        2.7007053373676957,
+        0.9538005253311177,
+        3.2414298708077025,
+        4.662401770339989,
+        1.9756731801307863,
+        1.4443858344358387,
+        1.332838464711934,
+        15.15762521986435,
+        2.55152269042185,
+        3.9199198592541484,
+        3.7115318977366014,
+        6.752771705039818,
+        0.9096174630425528,
+        7.158273431321669,
+        3.5143379503936876,
+        2.749350864778963,
+        2.7675882964740515,
+        5.318874933433872,
+        1.456992885738695,
+        4.006378530268109,
+        0.9825468426856507,
+        2.8339551196812183,
+        6.059715485143088,
+        4.639446867264013,
+        2.0926555758695438,
+        1.457840989681479,
+        1.5271410170497135,
+        1.4158530899854438,
+        6.866744605866327,
+        0.9785195072162008,
+        1.2043412899563843,
+        0.8361730985895566,
+        3.521283022334125,
+        5.474212777328718,
+        1.816917745741859,
+        2.178428417605766,
+        1.8847519505458297,
+        0.4065368218680697,
+        0.684889503615948,
+        0.5290996483939755,
+        2.818038106308312,
+        0.3333726901700276,
+        4.821188794294146,
+        0.19073471259657812,
+        0.9750626953552577,
+        4.790266662058264
+      ],
+      "fitted_model_sha256": "e8c8d6b64cf50ea3c30322f19b1aa1d4bd60181494ac997947c57741431abfb9",
+      "identification": "profile likelihood and held-out prices must be assessed for the chosen observation design"
+    },
+    "latent_factor_rmse": [
+      0.00915797310171085,
+      0.02291372005710385
+    ],
+    "unidentified_data_rank": 0,
+    "independent_paths": 4096
+  },
+  "wall_seconds": 15.709541082382202
+}

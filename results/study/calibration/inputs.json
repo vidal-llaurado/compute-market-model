@@ -1,0 +1,313 @@
+{
+  "model": {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.8,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.25,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03,
+      -0.01
+    ],
+    "jump_intensity_q": 0.3,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  "parameters": [
+    {
+      "name": "level mean reversion",
+      "path": [
+        "kappa",
+        0
+      ],
+      "lower": 0.1,
+      "upper": 2.0,
+      "scale": 0.8,
+      "prior_mean": null,
+      "prior_standard_error": null
+    },
+    {
+      "name": "level diffusion",
+      "path": [
+        "diffusion",
+        0,
+        0
+      ],
+      "lower": 0.05,
+      "upper": 0.6,
+      "scale": 0.25,
+      "prior_mean": null,
+      "prior_standard_error": null
+    },
+    {
+      "name": "physical level drift",
+      "path": [
+        "physical_drift",
+        0
+      ],
+      "lower": -0.2,
+      "upper": 0.2,
+      "scale": 0.1,
+      "prior_mean": null,
+      "prior_standard_error": null
+    },
+    {
+      "name": "pricing jump intensity",
+      "path": [
+        "jump_intensity_q"
+      ],
+      "lower": 0.05,
+      "upper": 1.0,
+      "scale": 0.3,
+      "prior_mean": null,
+      "prior_standard_error": null
+    }
+  ],
+  "anchors": [
+    "Initial curve fixed by a separate clean-price observation block.",
+    "Factor signs/scales fixed by compute loading (1, 0.5).",
+    "Slope decay/diffusion, jump means/covariances and all other coordinates fixed.",
+    "Synthetic transition factors are observed for this recovery experiment."
+  ],
+  "quotes": [
+    {
+      "market": "compute",
+      "time": 0,
+      "delivery": 0.5,
+      "value": 0.008295790127046277,
+      "standard_error": 0.001,
+      "kind": "option",
+      "delivery_end": null,
+      "expiry": 0.5,
+      "strike": 1.8,
+      "put": true,
+      "state": [],
+      "source": "synthetic noisy option observation"
+    },
+    {
+      "market": "compute",
+      "time": 0,
+      "delivery": 0.5,
+      "value": 0.09949544409986041,
+      "standard_error": 0.001,
+      "kind": "option",
+      "delivery_end": null,
+      "expiry": 0.5,
+      "strike": 2.3,
+      "put": true,
+      "state": [],
+      "source": "synthetic noisy option observation"
+    },
+    {
+      "market": "compute",
+      "time": 0,
+      "delivery": 0.5,
+      "value": 0.39629295587419433,
+      "standard_error": 0.001,
+      "kind": "option",
+      "delivery_end": null,
+      "expiry": 0.5,
+      "strike": 2.8,
+      "put": true,
+      "state": [],
+      "source": "synthetic noisy option observation"
+    },
+    {
+      "market": "compute",
+      "time": 0,
+      "delivery": 1.0,
+      "value": 0.01705575459597945,
+      "standard_error": 0.001,
+      "kind": "option",
+      "delivery_end": null,
+      "expiry": 1.0,
+      "strike": 1.8,
+      "put": true,
+      "state": [],
+      "source": "synthetic noisy option observation"
+    },
+    {
+      "market": "compute",
+      "time": 0,
+      "delivery": 1.0,
+      "value": 0.14046030071893761,
+      "standard_error": 0.001,
+      "kind": "option",
+      "delivery_end": null,
+      "expiry": 1.0,
+      "strike": 2.3,
+      "put": true,
+      "state": [],
+      "source": "synthetic noisy option observation"
+    },
+    {
+      "market": "compute",
+      "time": 0,
+      "delivery": 1.0,
+      "value": 0.44930367613307387,
+      "standard_error": 0.001,
+      "kind": "option",
+      "delivery_end": null,
+      "expiry": 1.0,
+      "strike": 2.8,
+      "put": true,
+      "state": [],
+      "source": "synthetic noisy option observation"
+    },
+    {
+      "market": "compute",
+      "time": 0,
+      "delivery": 2.0,
+      "value": 0.04277832635559967,
+      "standard_error": 0.001,
+      "kind": "option",
+      "delivery_end": null,
+      "expiry": 2.0,
+      "strike": 1.8,
+      "put": true,
+      "state": [],
+      "source": "synthetic noisy option observation"
+    },
+    {
+      "market": "compute",
+      "time": 0,
+      "delivery": 2.0,
+      "value": 0.23489483803888864,
+      "standard_error": 0.001,
+      "kind": "option",
+      "delivery_end": null,
+      "expiry": 2.0,
+      "strike": 2.3,
+      "put": true,
+      "state": [],
+      "source": "synthetic noisy option observation"
+    },
+    {
+      "market": "compute",
+      "time": 0,
+      "delivery": 2.0,
+      "value": 0.5888051686087536,
+      "standard_error": 0.001,
+      "kind": "option",
+      "delivery_end": null,
+      "expiry": 2.0,
+      "strike": 2.8,
+      "put": true,
+      "state": [],
+      "source": "synthetic noisy option observation"
+    }
+  ],
+  "initial": [
+    0.5,
+    0.2,
+    0.0,
+    0.2
+  ],
+  "transition_file": "physical_history.npz",
+  "frequency_grid": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      3.0,
+      0.0
+    ],
+    [
+      0.0,
+      3.0
+    ],
+    [
+      6.0,
+      0.0
+    ],
+    [
+      0.0,
+      6.0
+    ]
+  ],
+  "scope": "synthetic recovery with explicit fixed nuisance parameters; real data not used"
+}

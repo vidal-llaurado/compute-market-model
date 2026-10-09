@@ -1,0 +1,66 @@
+{
+  "value": 2985819.7200563336,
+  "buckets": [
+    {
+      "market": "G1_US",
+      "left": 0.0,
+      "center": 0.5,
+      "right": 1.0,
+      "bump": 0.0001
+    },
+    {
+      "market": "G1_US",
+      "left": 0.5,
+      "center": 1.0,
+      "right": 3.0,
+      "bump": 0.0001
+    },
+    {
+      "market": "G1_US",
+      "left": 1.0,
+      "center": 3.0,
+      "right": 7.0,
+      "bump": 0.0001
+    }
+  ],
+  "delta": [
+    340783.9384046383,
+    416235.6813927181,
+    109197.27202504873
+  ],
+  "gamma": [
+    [
+      425665.4065102339,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      334821.967408061,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -4518.404603004456
+    ]
+  ],
+  "half_bump_delta": [
+    340783.93784351647,
+    416235.6809480116,
+    109197.27204367518
+  ],
+  "bump_consistency": [
+    -0.0005611218512058258,
+    -0.000444706529378891,
+    1.862645149230957e-05
+  ],
+  "unit_pnl": [
+    34.07839384046383,
+    41.62356813927181,
+    10.919727202504873
+  ],
+  "gamma_layout": "diagonal",
+  "coordinates": "log compute/funding; absolute electricity and initial forward rates",
+  "numerical_method": "three branches, two intervals, common innovations; operating/financing/hedging reoptimized"
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2026.9.20",
+  "import_location": "site-packages",
+  "wheel_source_files_match": 59,
+  "sdist_includes_python_version_and_regression_fixtures": true,
+  "installed_cli_validate": true,
+  "installed_cli_surface": true,
+  "sdist_tests_against_installed_wheel": {
+    "tests": 468,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  }
+}

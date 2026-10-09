@@ -1,0 +1,24 @@
+{
+  "adaptive_vs_unhedged": {
+    "mean_wealth_change": 137476.2660485626,
+    "mean_change_standard_error": 29088.345861424626,
+    "es_reduction": 1434742.2800798882,
+    "paired_es_bootstrap_interval_95": [
+      1309346.5049288587,
+      1553503.087623904
+    ],
+    "failure_fraction_change": 0.0,
+    "bootstrap_resamples": 300
+  },
+  "adaptive_vs_static": {
+    "mean_wealth_change": 50661.4095237656,
+    "mean_change_standard_error": 10674.451026612456,
+    "es_reduction": 304865.0492882165,
+    "paired_es_bootstrap_interval_95": [
+      237885.3297529123,
+      379302.11841413827
+    ],
+    "failure_fraction_change": 0.0,
+    "bootstrap_resamples": 300
+  }
+}

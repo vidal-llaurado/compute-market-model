@@ -1,0 +1,71 @@
+{
+  "futures_only": {
+    "policy": "adaptive",
+    "paths": 1024,
+    "mean_wealth": 3692776.284496287,
+    "loss_es": -2971086.129522778,
+    "loss_var": -3130945.613122371,
+    "wealth_variance": 145045649766.96634,
+    "failure_fraction": 0.0,
+    "mean_delivery_shortfall_gpu_hours": 38.87526580582606,
+    "margin_p95": 1021718.9416914387,
+    "mean_delivery_shortfall_fraction": 0.00011094539328146707,
+    "mean_margin_cash_years": 531870.6569937777,
+    "mean_interest_cost": 102904.28234588364,
+    "debt_p95": 2107742.2078057923,
+    "mean_turnover_cost": 8904.580777855346,
+    "tail_mass_observations": 51.200000000000045,
+    "confidence": 0.95,
+    "audit": {
+      "maximum_cash_equation_error": 9.313225746154785e-10,
+      "maximum_component_error": 2.3283064365386963e-09,
+      "maximum_prefunding_violation": 8.544884622097015e-08,
+      "lp_calls": 8192,
+      "conditional_atoms": 256,
+      "conditional_tail_mass": 25.599999999999994,
+      "conditional_confidence": 0.9,
+      "risk_weight": 0.55,
+      "conditional_seed": 938,
+      "conditional_innovations_sha256": "74e809737af7ee3e4131fe467351a4a3fb07f9960d64817dc5cf460ac05d1d10",
+      "claim_types": [
+        "futures"
+      ],
+      "case_sha256": "b3c8dc8dba611be1066735733d68afd72d2aea4f534eceb5eaae2438cdb9ddde",
+      "market_model_sha256": "3c57be9ab5241a8849afe4afcfadbe3e27036d5a6a311ccce717f12f577670fb",
+      "policy_model_sha256": "7b78b75816268ffd4603d8cb1ad94c52fa38778f14d7d30c1b43385a89b29576",
+      "continuation_training_paths": 4096,
+      "conditioning": "current factors, physical inventory, debt and cash only",
+      "carry": "adverse_only",
+      "interval_years": 0.125,
+      "required_delivery_gpu_hours": 350400.0,
+      "component_names": [
+        "operating",
+        "interest",
+        "debt principal and fees",
+        "asset sales",
+        "financial settlements",
+        "transaction costs",
+        "failure/terminal liabilities"
+      ]
+    }
+  },
+  "mixed_vs_futures_only": {
+    "mean_wealth_change": 11038.792383895223,
+    "mean_change_standard_error": 2520.8496187094825,
+    "es_reduction": 41451.37627554219,
+    "paired_es_bootstrap_interval_95": [
+      23408.224509661773,
+      61107.60946796123
+    ],
+    "failure_fraction_change": 0.0,
+    "bootstrap_resamples": 300
+  },
+  "matched": {
+    "same_market_tape": true,
+    "same_financial_and_physical_start": true,
+    "same_conditional_seed": true,
+    "futures_instruments": 11,
+    "mixed_instruments": 15
+  },
+  "interpretation": "independent conditional optimizations; a richer one-step feasible set does not guarantee better realized or global policy value"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "expiry": 0.25,
+    "delivery": 1.0,
+    "jump_put": {
+      "price": 0.09911904757504109,
+      "standard_error": 0.0005503837484974792,
+      "method": "affine jump Monte Carlo",
+      "paths": 65536,
+      "seed": 44
+    },
+    "diffusion_put": {
+      "price": 0.09538777695060138,
+      "standard_error": 0.0,
+      "method": "Gaussian affine forward measure"
+    }
+  },
+  {
+    "expiry": 0.5,
+    "delivery": 1.0,
+    "jump_put": {
+      "price": 0.14308480006988752,
+      "standard_error": 0.0007660640064968474,
+      "method": "affine jump Monte Carlo",
+      "paths": 65536,
+      "seed": 44
+    },
+    "diffusion_put": {
+      "price": 0.13685651949341265,
+      "standard_error": 0.0,
+      "method": "Gaussian affine forward measure"
+    }
+  },
+  {
+    "expiry": 1.0,
+    "delivery": 1.0,
+    "jump_put": {
+      "price": 0.2337796379799114,
+      "standard_error": 0.0011650696900328608,
+      "method": "affine jump Monte Carlo",
+      "paths": 65536,
+      "seed": 44
+    },
+    "diffusion_put": {
+      "price": 0.2227294836557841,
+      "standard_error": 0.0,
+      "method": "Gaussian affine forward measure"
+    }
+  }
+]

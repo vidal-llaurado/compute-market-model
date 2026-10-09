@@ -1,0 +1,6 @@
+include README.md LICENSE requirements-tested.txt .python-version
+recursive-include docs *.md *.pdf *.png *.json
+recursive-include scripts *.py *.sh *.tex
+recursive-include examples *.py *.json *.md
+recursive-include tests *.py
+recursive-include tests/fixtures *.json

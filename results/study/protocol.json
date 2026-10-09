@@ -1,0 +1,50 @@
+{
+  "data": "synthetic",
+  "market_state": "nine-factor affine OU--Levy Musiela curves",
+  "training_paths": 4096,
+  "holdout_paths": 1024,
+  "stress_paths_per_case": 512,
+  "conditional_atoms": 256,
+  "delivery_dates": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "alpha_conditional": 0.9,
+  "alpha_report": 0.95,
+  "training_seed": 13001,
+  "holdout_seed": 13002,
+  "stress_seed": 13003,
+  "conditional_seed": 938,
+  "risk_weight": 0.55,
+  "carry": "adverse_only",
+  "policies": [
+    "unhedged",
+    "static",
+    "adaptive"
+  ],
+  "workers": 4,
+  "continuation": "quadratic state regression of a specified physical plan",
+  "rebalancing": "joint current dispatch, financing, dated futures and funded claims",
+  "liquidity_law": {
+    "mean_reversion": 2.0,
+    "annual_volatility": 0.55,
+    "jump_annual_rate": 0.25,
+    "jump_mean": 0.5,
+    "funding_factor": "funding liquidity",
+    "funding_loading": 0.6,
+    "market_downside_loading": 0.2,
+    "spread_loading": 0.8,
+    "depth_loading": 0.8,
+    "margin_loading": 0.6,
+    "outage_threshold": 3.5,
+    "min_multiplier": 0.05,
+    "max_multiplier": 20.0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "all_match": true,
+  "policies": {
+    "unhedged": {
+      "paths": 1024,
+      "all_match": true,
+      "fields": {
+        "terminal_wealth": true,
+        "failed": true,
+        "failure_step": true,
+        "delivery_shortfall": true,
+        "maximum_margin": true,
+        "minimum_cash": true,
+        "maximum_debt": true,
+        "asset_sales": true,
+        "transaction_cost": true,
+        "positions": true,
+        "posted_margin": true,
+        "cash": true,
+        "debt": true,
+        "components": true
+      }
+    },
+    "static": {
+      "paths": 1024,
+      "all_match": true,
+      "fields": {
+        "terminal_wealth": true,
+        "failed": true,
+        "failure_step": true,
+        "delivery_shortfall": true,
+        "maximum_margin": true,
+        "minimum_cash": true,
+        "maximum_debt": true,
+        "asset_sales": true,
+        "transaction_cost": true,
+        "positions": true,
+        "posted_margin": true,
+        "cash": true,
+        "debt": true,
+        "components": true
+      }
+    },
+    "adaptive": {
+      "paths": 1024,
+      "all_match": true,
+      "fields": {
+        "terminal_wealth": true,
+        "failed": true,
+        "failure_step": true,
+        "delivery_shortfall": true,
+        "maximum_margin": true,
+        "minimum_cash": true,
+        "maximum_debt": true,
+        "asset_sales": true,
+        "transaction_cost": true,
+        "positions": true,
+        "posted_margin": true,
+        "cash": true,
+        "debt": true,
+        "components": true
+      }
+    },
+    "futures_only": {
+      "paths": 1024,
+      "all_match": true,
+      "fields": {
+        "terminal_wealth": true,
+        "failed": true,
+        "failure_step": true,
+        "delivery_shortfall": true,
+        "maximum_margin": true,
+        "minimum_cash": true,
+        "maximum_debt": true,
+        "asset_sales": true,
+        "transaction_cost": true,
+        "positions": true,
+        "posted_margin": true,
+        "cash": true,
+        "debt": true,
+        "components": true
+      }
+    }
+  }
+}

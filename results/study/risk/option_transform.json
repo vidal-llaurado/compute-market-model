@@ -1,0 +1,35 @@
+[
+  {
+    "expiry": 0.125,
+    "price": 0.06950257587688125,
+    "coarse_price": 0.06950257587688391,
+    "quadrature_change": -2.6645352591003757e-15,
+    "method": "affine discounted characteristic transform",
+    "frequency_nodes": [
+      128,
+      256
+    ]
+  },
+  {
+    "expiry": 0.5,
+    "price": 0.14267944363859275,
+    "coarse_price": 0.14267944363859852,
+    "quadrature_change": -5.773159728050814e-15,
+    "method": "affine discounted characteristic transform",
+    "frequency_nodes": [
+      128,
+      256
+    ]
+  },
+  {
+    "expiry": 1.0,
+    "price": 0.23247892161161943,
+    "coarse_price": 0.23247892161163164,
+    "quadrature_change": -1.2212453270876722e-14,
+    "method": "affine discounted characteristic transform",
+    "frequency_nodes": [
+      128,
+      256
+    ]
+  }
+]

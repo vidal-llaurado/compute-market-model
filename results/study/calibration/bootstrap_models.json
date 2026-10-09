@@ -1,0 +1,2234 @@
+[
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.8029638334873249,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24953493144431788,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03451618712555227,
+      -0.01
+    ],
+    "jump_intensity_q": 0.295628086725858,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7718338018069176,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.25075808857128834,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03102471791472276,
+      -0.01
+    ],
+    "jump_intensity_q": 0.23976455970989197,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7920709004384889,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.2514553734896668,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03682752278646077,
+      -0.01
+    ],
+    "jump_intensity_q": 0.23881565920072698,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7933912153165918,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.2500608998036872,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.031679263295557605,
+      -0.01
+    ],
+    "jump_intensity_q": 0.2547090400542124,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.8093702868276612,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.2512451403750105,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.029637777019400832,
+      -0.01
+    ],
+    "jump_intensity_q": 0.26835280384379934,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7898076747831657,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24901021174639418,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.031244768546651792,
+      -0.01
+    ],
+    "jump_intensity_q": 0.27920348823112673,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7920501502393439,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24850891665254832,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.028498694632466143,
+      -0.01
+    ],
+    "jump_intensity_q": 0.31224991696992427,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7823892133883873,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24938261105997836,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03260224891680471,
+      -0.01
+    ],
+    "jump_intensity_q": 0.25320870762680714,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7963604156153451,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.25026591055968084,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03385525886539585,
+      -0.01
+    ],
+    "jump_intensity_q": 0.26214070294566116,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.803790171493328,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.2476404769224607,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03303013166641231,
+      -0.01
+    ],
+    "jump_intensity_q": 0.3171516426853371,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7891879976398801,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24927802122041212,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.027253716584557275,
+      -0.01
+    ],
+    "jump_intensity_q": 0.27959661591062807,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7868947476090914,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.2505908740755332,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03524541022726057,
+      -0.01
+    ],
+    "jump_intensity_q": 0.24636049529455073,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7904790702244318,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.2506571751814404,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.028279810303719566,
+      -0.01
+    ],
+    "jump_intensity_q": 0.2504214940744115,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7711938848627624,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.2501662999789831,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.030265604678969958,
+      -0.01
+    ],
+    "jump_intensity_q": 0.22732402937052598,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7741104500197872,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24748117446912557,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.030353463902353568,
+      -0.01
+    ],
+    "jump_intensity_q": 0.28278444540205666,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7881372343676939,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24901878789973497,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.0348457630714208,
+      -0.01
+    ],
+    "jump_intensity_q": 0.27918980331481924,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7978438083481344,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.250225926810094,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03170115275368483,
+      -0.01
+    ],
+    "jump_intensity_q": 0.27320812762251645,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.784998837703035,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24811688152062839,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03422965813941146,
+      -0.01
+    ],
+    "jump_intensity_q": 0.2909458673031665,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7982787276373863,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24687011877930892,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03562218560211332,
+      -0.01
+    ],
+    "jump_intensity_q": 0.3196558276246791,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7900742807291621,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24985633211319905,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.030406664869330406,
+      -0.01
+    ],
+    "jump_intensity_q": 0.2756998306275275,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.8018397889777898,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.25136876034009253,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.03059917912782359,
+      -0.01
+    ],
+    "jump_intensity_q": 0.24502451325239605,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7809892795827954,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.24982902993819514,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.035078138101665164,
+      -0.01
+    ],
+    "jump_intensity_q": 0.24451600227416495,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7840851111450801,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.25060930455750136,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.033150664455644636,
+      -0.01
+    ],
+    "jump_intensity_q": 0.2301715153740923,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  },
+  {
+    "factors": [
+      "level",
+      "slope"
+    ],
+    "curves": [
+      {
+        "name": "compute",
+        "kind": "log",
+        "dates": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          5.0
+        ],
+        "values": [
+          2.5,
+          2.4,
+          2.2,
+          2.0,
+          1.7
+        ],
+        "loading": [
+          1.0,
+          0.5
+        ],
+        "unit": "USD/GPU-hour",
+        "observable": "reference"
+      }
+    ],
+    "kappa": [
+      0.7869114401286175,
+      2.0
+    ],
+    "diffusion": [
+      [
+        0.25021064471699944,
+        0.0
+      ],
+      [
+        0.05,
+        0.18
+      ]
+    ],
+    "physical_drift": [
+      0.032154176914924906,
+      -0.01
+    ],
+    "jump_intensity_q": 0.2558951348290728,
+    "jump_intensity_p": 0.5,
+    "jump_mean_q": [
+      -0.15,
+      0.03
+    ],
+    "jump_mean_p": [
+      -0.2,
+      0.04
+    ],
+    "jump_cov_q": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.0,
+        0.01
+      ]
+    ],
+    "jump_cov_p": [
+      [
+        0.025,
+        0.0
+      ],
+      [
+        0.0,
+        0.015
+      ]
+    ],
+    "rate_loading": [
+      0.0,
+      0.0
+    ],
+    "rate_dates": [
+      0.0,
+      10.0
+    ],
+    "rate_forwards": [
+      0.04,
+      0.04
+    ],
+    "quadrature": 24
+  }
+]

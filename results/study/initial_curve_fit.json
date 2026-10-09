@@ -1,0 +1,158 @@
+{
+  "weighted_quote_rmse": 0.3871847069018893,
+  "data_rank": 8,
+  "knots": 8,
+  "singular_values": [
+    517.2534358008201,
+    479.47218269342505,
+    437.6546739281851,
+    416.49703816178055,
+    399.01233611599577,
+    335.9965202357172,
+    284.0366289019585,
+    266.7686864733696
+  ],
+  "regularization": 0.01,
+  "quotes": [
+    {
+      "market": "G1",
+      "delivery_start": 0.0,
+      "delivery_end": 0.0,
+      "price": 2.5021360293623367,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 0.25,
+      "delivery_end": 0.25,
+      "price": 2.486968412985262,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 0.5,
+      "delivery_end": 0.5,
+      "price": 2.4150206733163215,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 1.0,
+      "delivery_end": 1.0,
+      "price": 2.299738102339749,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 2.0,
+      "delivery_end": 2.0,
+      "price": 2.0536987888745424,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 3.0,
+      "delivery_end": 3.0,
+      "price": 1.903206434563436,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 5.0,
+      "delivery_end": 5.0,
+      "price": 1.7042197284176392,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 7.0,
+      "delivery_end": 7.0,
+      "price": 1.6006121140063088,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 0,
+      "delivery_end": 0.5,
+      "price": 2.473567777869872,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 0.5,
+      "delivery_end": 1,
+      "price": 2.3667263959285183,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 1,
+      "delivery_end": 2,
+      "price": 2.1754147599559657,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    },
+    {
+      "market": "G1",
+      "delivery_start": 2,
+      "delivery_end": 3,
+      "price": 1.9780480573086436,
+      "standard_error": 0.006,
+      "convention": "futures",
+      "rights_adjustment": null,
+      "source": "synthetic executable quote"
+    }
+  ],
+  "fitted_knot_values": [
+    2.5021477591133703,
+    2.4869918252399463,
+    2.4182878190197465,
+    2.302871405126798,
+    2.0536686493345693,
+    1.9034356210882952,
+    1.7042197559315775,
+    1.6006121032482714
+  ],
+  "true_knot_values": [
+    2.5,
+    2.48,
+    2.42,
+    2.3,
+    2.05,
+    1.9,
+    1.7,
+    1.6
+  ]
+}

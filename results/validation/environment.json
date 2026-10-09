@@ -1,0 +1,15 @@
+{
+  "project": "Compute Market",
+  "python": "3.13.5",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pytest": "9.0.2",
+    "pytest-cov": "7.0.0",
+    "coverage": "7.13.3",
+    "matplotlib": "3.10.8",
+    "setuptools": "82.0.1"
+  },
+  "linear_algebra_threads": 1
+}

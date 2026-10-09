@@ -1,0 +1,120 @@
+{
+  "paths": 65536,
+  "futures_martingales": [
+    {
+      "market": "G1",
+      "delivery": 0.25,
+      "initial_future": 2.48,
+      "mean_terminal_spot": 2.4794722304716967,
+      "standard_error": 0.0016347917933886202,
+      "z_score": -0.3228359295890992
+    },
+    {
+      "market": "G1",
+      "delivery": 0.5,
+      "initial_future": 2.42,
+      "mean_terminal_spot": 2.4189637509128303,
+      "standard_error": 0.002012714982061071,
+      "z_score": -0.5148513805508859
+    },
+    {
+      "market": "G1",
+      "delivery": 1.0,
+      "initial_future": 2.3,
+      "mean_terminal_spot": 2.298008942106038,
+      "standard_error": 0.0024109166302544597,
+      "z_score": -0.8258509933426346
+    },
+    {
+      "market": "G1",
+      "delivery": 2.0,
+      "initial_future": 2.05,
+      "mean_terminal_spot": 2.0488291462322965,
+      "standard_error": 0.0027489270657610025,
+      "z_score": -0.42593118685714654
+    },
+    {
+      "market": "G2",
+      "delivery": 0.25,
+      "initial_future": 3.7199999999999993,
+      "mean_terminal_spot": 3.7178586800352313,
+      "standard_error": 0.0023475883439850282,
+      "z_score": -0.9121360524107368
+    },
+    {
+      "market": "G2",
+      "delivery": 0.5,
+      "initial_future": 3.6299999999999994,
+      "mean_terminal_spot": 3.6299422997031137,
+      "standard_error": 0.002958851914814299,
+      "z_score": -0.019500907293432065
+    },
+    {
+      "market": "G2",
+      "delivery": 1.0,
+      "initial_future": 3.45,
+      "mean_terminal_spot": 3.4473003868953285,
+      "standard_error": 0.003593860638254402,
+      "z_score": -0.7511735641432531
+    },
+    {
+      "market": "G2",
+      "delivery": 2.0,
+      "initial_future": 3.0749999999999997,
+      "mean_terminal_spot": 3.076916012827911,
+      "standard_error": 0.00417378607180154,
+      "z_score": 0.45905870472278276
+    },
+    {
+      "market": "power_US",
+      "delivery": 0.25,
+      "initial_future": 72.0,
+      "mean_terminal_spot": 71.97555584081178,
+      "standard_error": 0.02456174449974944,
+      "z_score": -0.995212664494173
+    },
+    {
+      "market": "power_US",
+      "delivery": 0.5,
+      "initial_future": 74.0,
+      "mean_terminal_spot": 73.98023011724723,
+      "standard_error": 0.03074776153571204,
+      "z_score": -0.6429698217155433
+    },
+    {
+      "market": "power_US",
+      "delivery": 1.0,
+      "initial_future": 76.0,
+      "mean_terminal_spot": 75.98081537065329,
+      "standard_error": 0.03536105513914354,
+      "z_score": -0.5425355457075735
+    },
+    {
+      "market": "power_US",
+      "delivery": 2.0,
+      "initial_future": 78.0,
+      "mean_terminal_spot": 78.0911294096588,
+      "standard_error": 0.03770734785619902,
+      "z_score": 2.4167546868142735
+    }
+  ],
+  "discount": {
+    "analytic": 0.9289038907881565,
+    "monte_carlo": 0.9288649661529854,
+    "standard_error": 3.814953323866178e-05
+  },
+  "terminal_forward": {
+    "analytic": 2.050819886870959,
+    "ratio_mc": 2.0496404127183445,
+    "ratio_standard_error": 0.0027507496335767738,
+    "ratio_z_score": -0.42878280822703835,
+    "futures": 2.05
+  },
+  "delivery_overlap_error": 4.440892098500626e-16,
+  "physical_forecast": {
+    "analytic": 2.2314607968589137,
+    "mc": 2.2315227511693587,
+    "standard_error": 0.0024539758994368533,
+    "futures": 2.3
+  }
+}

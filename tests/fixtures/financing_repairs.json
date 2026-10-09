@@ -1,0 +1,265 @@
+{
+  "config": {
+    "paths": 1024,
+    "steps": 8,
+    "hours_per_step": 1095.0,
+    "seed": 20260918,
+    "blocks": [
+      8.0,
+      6.0,
+      5.0,
+      4.0
+    ],
+    "gpus_per_block": [
+      8.0,
+      8.0,
+      8.0,
+      8.0
+    ],
+    "local_prices": [
+      2.5,
+      2.75,
+      3.75,
+      4.125
+    ],
+    "hardware_values": [
+      160000.0,
+      160000.0,
+      240000.0,
+      240000.0
+    ],
+    "firm_blocks": [
+      2.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "firm_rates": [
+      2.55,
+      2.8,
+      3.8,
+      4.15
+    ],
+    "nonpower_unit_cost": [
+      0.32,
+      0.35,
+      0.46,
+      0.49
+    ],
+    "mwh_per_gpu_hour": [
+      0.0012,
+      0.0012,
+      0.0015,
+      0.0015
+    ],
+    "initial_cash": 500000.0,
+    "reserve": 70000.0,
+    "initial_revolver": 1500000.0,
+    "initial_term_debt": 700000.0,
+    "revolver_commitment": 2600000.0,
+    "advance_rate": 0.6,
+    "receivable_advance": 0.0,
+    "revolver_spread": 0.055,
+    "initial_reference_rate": 0.04,
+    "fixed_term_coupon": 0.075,
+    "term_amortization": 22500.0,
+    "term_maturity_step": 24,
+    "revolver_maturity_step": 16,
+    "refinance_probability": 0.9,
+    "max_draw_per_step": 400000.0,
+    "debt_fee": 0.001,
+    "prepayment_fraction": 0.5,
+    "customer_default_annual_hazard": 0.02,
+    "counterparty_default_annual_hazard": 0.01,
+    "counterparty_recovery": 0.4,
+    "eligible_mark_lag": 1,
+    "liquidation_fraction": 0.9,
+    "liquidation_impact": 0.12,
+    "maximum_sale_fraction": 0.7,
+    "replacement_multiplier": 1.5,
+    "replacement_blocks": [
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "shortfall_penalty_per_gpu_hour": 6.0,
+    "fixed_overhead_per_step": 60000.0,
+    "asset_decline_annual": 0.14,
+    "rental_decline_annual": 0.08,
+    "benchmark_decline_annual": 0.08,
+    "factor_vol_scale": 1.0,
+    "common_jump_annual_rate": 0.35,
+    "outage_annual_rate": 0.35,
+    "outage_repair_annual_rate": 8.0,
+    "expected_spot_utilization": 0.8,
+    "hedge_margin_fraction": 0.18,
+    "hedge_spread_fraction": 0.003,
+    "hedge_forward_carry_annual": 0.0,
+    "power_forward_carry_annual": 0.0
+  },
+  "cases": [
+    {
+      "path": 215,
+      "step": 1,
+      "inputs": {
+        "holdings": [
+          7.76992232808654,
+          5.827441746064905,
+          4.856201455054087,
+          3.88496116404327
+        ],
+        "cash": 221586.94250575398,
+        "debt": 1729516.3219658218,
+        "hardware": [
+          186252.1458399793,
+          187303.18796486445,
+          315246.38863469753,
+          317189.04504995357
+        ],
+        "eligible": [
+          160000.0,
+          160000.00000000003,
+          240000.0,
+          240000.0
+        ],
+        "availability": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "replacement": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "local": [
+          2.717388860741965,
+          3.0166719375842534,
+          5.264808604374307,
+          5.843224760881962
+        ],
+        "owned_cost": [
+          0.4059404676921563,
+          0.4840828905512356,
+          0.5674255846151954,
+          0.6576036131890446
+        ],
+        "commitment": 2600000.0,
+        "draw_frozen": false,
+        "receivable_support": 0.0,
+        "margin": 609856.0122250089
+      }
+    },
+    {
+      "path": 696,
+      "step": 1,
+      "inputs": {
+        "holdings": [
+          7.679148063173954,
+          5.759361047380465,
+          4.799467539483721,
+          3.839574031586977
+        ],
+        "cash": 253457.27978136868,
+        "debt": 1724905.4363541522,
+        "hardware": [
+          203164.99665957125,
+          205416.66669385837,
+          278236.5556931563,
+          280386.7755527472
+        ],
+        "eligible": [
+          160000.0,
+          160000.00000000003,
+          240000.0,
+          240000.0
+        ],
+        "availability": [
+          0.27906030268488324,
+          1.0,
+          0.27906030268488324,
+          1.0
+        ],
+        "replacement": [
+          0.6000000000000001,
+          2.0,
+          0.6000000000000001,
+          2.0
+        ],
+        "local": [
+          3.5858266034682096,
+          4.015112887680249,
+          4.447948475919161,
+          4.979227102803392
+        ],
+        "owned_cost": [
+          0.41613902922726076,
+          0.49384559729127664,
+          0.5801737865340759,
+          0.6698069966140958
+        ],
+        "commitment": 2600000.0,
+        "draw_frozen": false,
+        "receivable_support": 0.0,
+        "margin": 693308.4853565365
+      }
+    },
+    {
+      "path": 302,
+      "step": 2,
+      "inputs": {
+        "holdings": [
+          7.900332672285932,
+          5.925249504214449,
+          4.937707920178708,
+          3.950166336142966
+        ],
+        "cash": 549101.5636186446,
+        "debt": 1229472.7486486326,
+        "hardware": [
+          161696.61861517472,
+          157725.23809266582,
+          242912.3165884456,
+          236877.94493884358
+        ],
+        "eligible": [
+          153018.1470085136,
+          149574.2193827579,
+          220628.617886716,
+          215712.06800066243
+        ],
+        "availability": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "replacement": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "local": [
+          2.8625019312488544,
+          2.8885841535642958,
+          4.3086721373109,
+          4.346096263439081
+        ],
+        "owned_cost": [
+          0.40564424451227044,
+          0.48272881825170005,
+          0.567055305640338,
+          0.6559110228146251
+        ],
+        "commitment": 2600000.0,
+        "draw_frozen": true,
+        "receivable_support": 0.0,
+        "margin": 446328.52478672226
+      }
+    }
+  ]
+}
